@@ -1,7 +1,7 @@
 {
-    "name": "dumpstarr",
+    "name": "Dumpstarr",
     "version": "2.0.0",
-    "description": "Official Dumpstarr DB",
+    "description": "Official Dumpstarr Database",
     "arr_types": ["radarr", "sonarr"],
 
     "dependencies": {
@@ -10,7 +10,7 @@
 
     "authors": [
         {
-            "name": "Dumpstarr Team"
+            "name": "sweatyeggs69"
         }
     ],
 
@@ -19,7 +19,8 @@
 
 
     "links": {
-        "issues": "https://github.com/Dumpstarr/Dumpstarr/issues"
+        "homepage": "https://github.com/Dumpstarr",
+        "issues": "https://discord.com/invite/TbYW2Q4hGv"
     },
 
     "profilarr": {
