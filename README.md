@@ -23,7 +23,7 @@ The Dumpstarr database for Profilarr is a curated collection of **custom formats
 
 | Profile | Media Type | Use Case |
 | :--- | :--- | :--- |
-| `1080p LQ` | Low-Priority Media | Maximum storage savings |
+| `LQ 1080p` | Low-Priority Media | Maximum storage savings |
 | `Anime 1080p` | Anime | Anime TV and Movies |
 | `TV 1080p` | TV Shows |1080p |
 | `TV 2160p` | 4K TV Shows | 4K with HDR and Dolby Vision |
