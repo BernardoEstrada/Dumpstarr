@@ -50,9 +50,10 @@ Our profiles are loosely based on the structure of the **SQP-1 Alternative (Rada
 We include several specific fixes and features for common media-sourcing annoyances:
 
 * **Automatic Sync** of the Dictionarry Group Tiers.
-* **Bad Multis:** Fix issues with certain multi-episode releases that are incorrectly ordered, labeled, etc.
-* **Parks and Recreation Fix:** Correctly sources releases from NTb.
 * **Adventure Time Season 8 Fix:** Correctly sources releases from groups that follow TheTVDB ordering.
+* **Bad Multis:** Fix issues with certain multi-episode releases that are incorrectly ordered, labeled, etc.
+* **Bad Naming Scheme:** Fixes issues with releases like HONE where the release name causes incorrect parsing or loops.
 * **House Season 6 Fix:** Correctly sources releases from groups that follow TheTVDB ordering.
+* **Parks and Recreation Fix:** Correctly sources releases from NTb.
 * **Scrubs Fix:** Avoids 25fps PAL versions.
 * **Whose Line Is It Anyway (US) Fix:** Targets correct releases for early seasons of the US version due to inconsistent naming.
