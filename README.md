@@ -55,6 +55,7 @@ We include several specific fixes and features for common media-sourcing annoyan
 * **Bad Naming Scheme:** Fixes issues with releases where the release name causes incorrect parsing or loops.
 * **The Big Bang Theory Fix:** Avoids 25fps PAL versions.
 * **House Season 6 Fix:** Correctly sources releases that follow TheTVDB ordering.
+* **The Office (US) Fix:** Negates releases from groups that have issues with TheTVDB ordering.
 * **Parks and Recreation Fix:** Correctly negates releases that follow bad naming schemes.
 * **Scrubs Fix:** Avoids 25fps PAL versions.
 * **Whose Line Is It Anyway (US) Fix:** Targets correct releases for early seasons of the US version due to inconsistent naming.
