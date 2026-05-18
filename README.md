@@ -2,6 +2,9 @@
 
 ## **For a media setup that isn't a dumpster fire :D**
 
+>[!IMPORTANT]
+>This database requires at least Profilarr version 2.0.0.
+
 [![Discord](https://img.shields.io/discord/1408095311661891796?label=Discord&logo=discord&style=for-the-badge)](https://discord.gg/TbYW2Q4hGv)
 
 ---
@@ -40,8 +43,7 @@ The Dumpstarr database for Profilarr is a curated collection of **custom formats
 
 Our profiles are loosely based on the structure of the **SQP-1 Alternative (Radarr)** and **WEB-2160p/1080p Alternative (Sonarr)** profiles from TRaSH.
 
-* **Release Group Tiers:** We default to the [Dictionarry](https://github.com/Dictionarry-Hub/database) group tiers (2160p, 1080p, 720p, 576p, 480p, WEB and Remux).
-* **Alternative Groups:** The [TRaSH Guides](https://trash-guides.info/) tiers are also included if you prefer to use those instead.
+* **Release Group Tiers:** We have developed a hybrid setup of the **TRaSH Guides** tiers with our own additions for more functionality and scoring than default. 
 
 ---
 
@@ -49,7 +51,6 @@ Our profiles are loosely based on the structure of the **SQP-1 Alternative (Rada
 
 We include several specific fixes and features for common media-sourcing annoyances:
 
-* **Automatic Sync** of the Dictionarry Group Tiers.
 * **Adventure Time Season 8 Fix:** Correctly sources releases that follow TheTVDB ordering.
 * **Bad Multis:** Fix issues with certain multi-episode releases that are incorrectly ordered, labeled, etc.
 * **Bad Naming Scheme:** Fixes issues with releases where the release name causes incorrect parsing or loops.
