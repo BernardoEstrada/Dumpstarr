@@ -50,15 +50,17 @@ Our profiles are loosely based on the structure of the **SQP-1 Alternative (Rada
 ### **Fixes & Features**
 
 We include several specific fixes and features for common media-sourcing annoyances:
-
-* **Adventure Time Season 8 Fix:** Correctly sources releases that follow TheTVDB ordering.
-* **Arthur Fix:** Avoids releases where bad release names causes incorrect parsing or loops.
-* **Bad Multis:** Avoids releases where bad release names causes incorrect parsing or loops.
-* **Bad Naming Scheme:** Avoids releases where bad release names causes incorrect parsing or loops.
-* **The Big Bang Theory Fix:** Avoids 25fps PAL versions.
-* **Family Guy Fix:** Avoids 25fps PAL versions.
-* **House Season 6 Fix:** Correctly sources releases that follow TheTVDB ordering.
-* **The Office (US) Fix:** Negates releases from groups that have issues with TheTVDB ordering.
-* **Parks and Recreation Fix:** Avoids releases with incorrect source IDs which cause loops.
-* **Scrubs Fix:** Avoids 25fps PAL versions.
-* **Whose Line Is It Anyway (US) Fix:** Targets correct releases for early seasons of the US version due to inconsistent naming.
+* Bad Multis: Avoids releases where bad release names causes incorrect parsing or loops.
+---
+| Show | Detail | 
+| :--- | :--- | 
+|Adventure Time|Correctly sources releases that follow TheTVDB ordering for Season 8.|
+|Arthur|Avoids releases where bad release names cause incorrect parsing or loops.|
+|The Big Bang Theory|Avoids 25fps PAL versions.|
+|Family Guy|Avoids 25fps PAL versions.|
+|Frieren Beyond Journey's End|Avoids releases where bad release names cause incorrect parsing or loops.|
+|House|Correctly sources releases that follow TheTVDB ordering for Season 6.|
+|The Office (US)|Negates releases from groups that have issues with TheTVDB ordering.|
+|Parks and Recreation|Avoids releases with incorrect source IDs which cause loops.|
+|Scrubs|Avoids 25fps PAL versions.|
+|Whose Line Is It Anyway (US|Targets correct releases for early seasons of the US version due to inconsistent naming.|
