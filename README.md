@@ -58,7 +58,6 @@ We include several specific fixes and features for common media-sourcing annoyan
 |Arthur|Avoids releases where bad release names cause incorrect parsing or loops.|
 |The Big Bang Theory|Avoids 25fps PAL versions.|
 |Family Guy|Avoids 25fps PAL versions.|
-|Frieren Beyond Journey's End|Avoids releases where bad release names cause incorrect parsing or loops.|
 |House|Correctly sources releases that follow TheTVDB ordering for Season 6.|
 |The Office (US)|Negates releases from groups that have issues with TheTVDB ordering.|
 |The Office (US)|Prefer "Superfans" versions.|
