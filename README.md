@@ -63,5 +63,6 @@ We include several specific fixes and features for common media-sourcing annoyan
 |The Office Superfan|Avoids releases where bad release names cause incorrect parsing or loops.|
 |Parks and Recreation|Avoids releases with incorrect source IDs which cause loops.|
 |Scrubs|Avoids 25fps PAL versions.|
+|Sex and the City|Avoids groups that cause issues with metadata in media servers.|
 |Spider-Noir|Prefer "Authentic B&W" versions.|
 |Whose Line Is It Anyway (US|Targets correct releases for early seasons of the US version due to inconsistent naming.|
