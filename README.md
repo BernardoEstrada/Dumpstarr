@@ -60,7 +60,7 @@ We include several specific fixes and features for common media-sourcing annoyan
 |Family Guy|Avoids 25fps PAL versions.|
 |House|Correctly sources releases that follow TheTVDB ordering for Season 6.|
 |The Office (US)|Prefer "Superfans" versions and negate releases from groups that have issues with TheTVDB ordering.|
-|The Office Superfan|Avoids releases where bad release names cause incorrect parsing or loops.|
+|The Office Superfans|Avoids releases where bad release names cause incorrect parsing or loops.|
 |Parks and Recreation|Avoids releases with incorrect source IDs which cause loops.|
 |Scrubs|Avoids 25fps PAL versions.|
 |Sex and the City|Avoids groups that cause issues with metadata in media servers.|
