@@ -57,13 +57,11 @@ We include several specific fixes and features for common media-sourcing annoyan
 |Adventure Time|Correctly sources releases that follow TheTVDB ordering for Season 8.|
 |Arthur|Avoids releases where bad release names cause incorrect parsing or loops.|
 |The Big Bang Theory|Avoids 25fps PAL versions.|
-|The Blacklist|Avoids groups that cause issues with metadata in media servers.|
 |Family Guy|Avoids 25fps PAL versions.|
 |House|Correctly sources releases that follow TheTVDB ordering for Season 6.|
 |The Office (US)|Prefer "Superfans" versions and negate releases from groups that have issues with TheTVDB ordering.|
 |The Office Superfans|Avoids releases where bad release names cause incorrect parsing or loops.|
 |Parks and Recreation|Avoids releases with incorrect source IDs which cause loops.|
 |Scrubs|Avoids 25fps PAL versions.|
-|Sex and the City|Avoids groups that cause issues with metadata in media servers.|
 |Spider-Noir|Prefer "Authentic B&W" versions.|
 |Whose Line Is It Anyway (US|Targets correct releases for early seasons of the US version due to inconsistent naming.|
