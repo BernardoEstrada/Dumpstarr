@@ -35,8 +35,6 @@ The Dumpstarr database for Profilarr is a curated collection of **custom formats
 | `Movies 1080p HQ` | HQ Movies | 1080p, higher video bitrates and HQ audio formats |
 | `Movies 2160p HQ` | HQ 4K Movies | 4K, higher video bitrates and HQ audio formats |
 
-> We deny sub-2160p, x265/HEVC releases that do not contain HDR or Dolby Vision on the TV profiles.
-
 ---
 
 ### **Underlying Structure and Tiers**
@@ -60,7 +58,6 @@ We include several specific fixes and features for common media-sourcing annoyan
 |Family Guy|Avoids 25fps PAL versions.|
 |House|Correctly sources releases that follow TheTVDB ordering for Season 6.|
 |The Office (US)|Prefer "Superfans" versions and negate releases from groups that have issues with TheTVDB ordering.|
-|The Office Superfans|Avoids releases where bad release names cause incorrect parsing or loops.|
 |Parks and Recreation|Avoids releases with incorrect source IDs which cause loops.|
 |Scrubs|Avoids 25fps PAL versions.|
 |Spider-Noir|Prefer "Authentic B&W" versions.|
