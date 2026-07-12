@@ -59,6 +59,7 @@ We include several specific fixes and features for common media-sourcing annoyan
 |House|Correctly sources releases that follow TheTVDB ordering for Season 6.|
 |The Office (US)|Prefer "Superfans" versions and negate releases from groups that have issues with TheTVDB ordering.|
 |Parks and Recreation|Avoids releases with incorrect source IDs which cause loops.|
+|Phineas and Ferb|Negate releases from groups that have issues with TheTVDB ordering.|
 |Scrubs|Avoids 25fps PAL versions.|
 |Spider-Noir|Prefer "Authentic B&W" versions.|
 |Whose Line Is It Anyway (US|Targets correct releases for early seasons of the US version due to inconsistent naming.|
