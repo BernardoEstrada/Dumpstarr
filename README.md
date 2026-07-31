@@ -52,6 +52,7 @@ We include several specific fixes and features for common media-sourcing annoyan
 |Adventure Time|Correctly sources releases that follow TheTVDB ordering for Season 8.|
 |Arthur|Avoids releases where bad release names cause incorrect parsing or loops.|
 |The Big Bang Theory|Avoids 25fps PAL versions.|
+|Courage the Cowardly Dog|Avoids releases where bad release names cause incorrect parsing or loops.|
 |Family Guy|Avoids 25fps PAL versions.|
 |The Four Seasons|Avoids releases where bad release names cause incorrect parsing or loops.|
 |House|Correctly sources releases that follow TheTVDB ordering for Season 6.|
