@@ -50,6 +50,7 @@ We include several specific fixes and features for common media-sourcing annoyan
 | Show | Detail | 
 | :--- | :--- | 
 |Adventure Time|Correctly sources releases that follow TheTVDB ordering for Season 8.|
+|Anne of Green Gables|Avoids releases where bad release names cause incorrect parsing or loops.|
 |Arthur|Avoids releases where bad release names cause incorrect parsing or loops.|
 |The Big Bang Theory|Avoids 25fps PAL versions.|
 |Courage the Cowardly Dog|Avoids releases where bad release names cause incorrect parsing or loops.|
