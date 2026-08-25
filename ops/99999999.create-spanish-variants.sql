@@ -125,7 +125,7 @@ WHERE src.quality_profile_name NOT LIKE '% spanish'
 -- 8) Set required language to Spanish for every variant
 --    (matches upstream's "type='must', language_name='Original'" pattern)
 INSERT INTO quality_profile_languages (quality_profile_name, language_name, type)
-SELECT qp.name, 'Spanish', 'must'
+SELECT qp.name, 'Spanish (Latino)', 'must'
 FROM quality_profiles qp
 WHERE qp.name LIKE '% spanish'
   AND NOT EXISTS (
@@ -209,7 +209,7 @@ SELECT 'Not Spanish',
 WHERE NOT EXISTS (SELECT 1 FROM custom_formats WHERE name = 'Not Spanish');
 
 INSERT INTO custom_format_conditions (custom_format_name, name, type, arr_type, negate, required)
-SELECT 'Not Spanish', 'Spanish', 'language', 'all', 1, 1
+SELECT 'Not Spanish', 'Spanish (Latino)', 'language', 'all', 1, 1
 WHERE NOT EXISTS (
   SELECT 1 FROM custom_format_conditions
   WHERE custom_format_name = 'Not Spanish' AND name = 'Spanish'
