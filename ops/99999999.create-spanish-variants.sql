@@ -131,7 +131,7 @@ WHERE qp.name LIKE '% spanish'
   AND NOT EXISTS (
     SELECT 1 FROM quality_profile_languages
     WHERE quality_profile_name = qp.name
-      AND language_name = 'Spanish'
+      AND language_name = 'Spanish (Latino)'
   );
 
 -- 9) Copy custom-format scores: reward "Spanish DL" (+5000), neutralise
@@ -216,7 +216,7 @@ WHERE NOT EXISTS (
 );
 
 INSERT INTO condition_languages (custom_format_name, condition_name, language_name, except_language)
-SELECT 'Not Spanish', 'Spanish', 'Spanish', 0
+SELECT 'Not Spanish', 'Spanish (Latino)', 'Spanish (Latino)', 0
 WHERE NOT EXISTS (
   SELECT 1 FROM condition_languages
   WHERE custom_format_name = 'Not Spanish' AND condition_name = 'Spanish'
